@@ -39,7 +39,7 @@ def get_friends_followers_ids(twitter_api, screen_name=None, user_id=None, frien
 
 twitter_api = oauth_login()
 
-friends_ids, followers_ids = get_friends_followers_ids(twitter_api, screen_name="NewYorker", friends_limit=0, followers_limit=50000)
+friends_ids, followers_ids = get_friends_followers_ids(twitter_api, screen_name="NewYorker", friends_limit=0, followers_limit=100)
 
 print friends_ids
 print followers_ids
